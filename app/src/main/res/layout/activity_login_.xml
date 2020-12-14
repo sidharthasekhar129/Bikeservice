@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Login_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/back3"
+
+                android:layout_gravity="center"
+                android:src="@drawable/repairbike"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                android:text="Welcome to BikeRepair "/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="E-Mail ID"
+                android:id="@+id/e1"/>
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                 android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_baseline_mail_24"
+                android:drawablePadding="5dp"
+                android:paddingStart="5dp"
+                android:background="@drawable/strokebaground"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Password"
+                android:id="@+id/p1"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+
+                >
+                <EditText
+                    android:id="@+id/ed2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:padding="5dp"
+                    android:background="@drawable/strokebaground"
+                    android:inputType="textPassword"
+                    android:textColor="#000"
+
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="5dp" />
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Remember me."
+                android:id="@+id/remember"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressbar"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/background"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signup"
+                    android:textColor="@color/endblue"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
+                    android:text="Dont have an account! Sign up here"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

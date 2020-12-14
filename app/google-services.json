@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "272638091058",
+    "firebase_url": "https://bike-repairing-cafdf.firebaseio.com",
+    "project_id": "bike-repairing-cafdf",
+    "storage_bucket": "bike-repairing-cafdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272638091058:android:90dcaa732270b8815d412b",
+        "android_client_info": {
+          "package_name": "com.example.bikeservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272638091058-kkudsh405d9e2461pq576e4t4knmsrv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4quamO-fm4QlKay-8_bbRtqW9nq4OsuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272638091058-719hoep8erg9fg4esu2bscnnak3ulmg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Checkout_Activity">
+
+    <TextView
+        android:text="Enter Your Address"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#0E249C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/address"
+        android:maxLength="250"
+        android:maxLines="10"
+        android:padding="5dp"
+        android:textSize="18sp"
+
+        android:background="@drawable/address_background"
+        android:layout_margin="5dp"
+        android:hint="Debasish p.\n8745961147\nBhubaneswar block 9\n Banibihar\nhouse no.245\n758521"
+         android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+         android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:visibility="gone"
+
+
+    />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:text="Book Mechanic"
+        android:layout_marginTop="50dp"
+        android:id="@+id/bookmechanic"
+        android:background="@drawable/background"
+        android:layout_gravity="center"
+        android:layout_height="45dp"/>
+
+</LinearLayout>
